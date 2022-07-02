@@ -15,25 +15,25 @@
 }
 
 .foto-perfil {
-  background: url(/assets/perfil.jpg) center/ cover no-repeat;
+  background: url(assets/perfil.jpg) center/ cover no-repeat;
   grid-column: 1/2;
   grid-row: 1/3;
 }
 
 .trabajos {
-  background: url(/assets/ahorcado.jpg) center/cover no-repeat;
+  background: url(assets/ahorcado.jpg) center/cover no-repeat;
   grid-column: 2/6;
   grid-row: 2/3;
 }
 
 .encriptador {
-  background: url(/assets/encriptar.jpg) center/cover no-repeat;
+  background: url(assets/encriptar.jpg) center/cover no-repeat;
   grid-column: 2/6;
   grid-row: 3/4;
 }
 
 .alura-web {
-  background: url(/assets/alura-web.jpg) center/cover no-repeat;
+  background: url(assets/alura-web.jpg) center/cover no-repeat;
   grid-column: 2/6;
   grid-row: 4/5;
 }
