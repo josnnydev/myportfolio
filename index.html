@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/seccion-central.css" />
+    <link rel="stylesheet" href="css/grid.css" />
+    <script
+      src="https://kit.fontawesome.com/ec7a2b3069.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="cabecera">
+      <ul class="cabecera-list">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Enlace</a></li>
+        <li><a href="contactos">Contactos</a></li>
+      </ul>
+
+      <div class="icons">
+        <a id="iconos" href="#"><i class="fa-brands fa-twitter"> </i></a>
+        <a id="iconos" href="#"><i class="fa-brands fa-facebook-f"> </i></a>
+        <a id="iconos" href="#"><i class="fa-brands fa-github"> </i></a>
+        <a id="iconos" href="#"><i class="fa-brands fa-linkedin-in"> </i></a>
+        <a id="iconos" href="#"><i class="fa-brands fa-telegram"> </i></a>
+      </div>
+    </header>
+
+    <main class="contenido">
+      <!-- info personal -->
+      <div class="seccion-central">
+        <div class="foto-perfil"></div>
+        <tbody class="lista">
+          <table class="info">
+            <tr>
+              <th>Info. Personal</th>
+            </tr>
+            <tr>
+              <td>nombre:</td>
+              <td>Josnny Andres</td>
+            </tr>
+
+            <tr>
+              <td>Apellido:</td>
+              <td>Pineyro V.</td>
+            </tr>
+
+            <tr>
+              <td>Edad:</td>
+              <td>28 anhos</td>
+            </tr>
+
+            <tr>
+              <td>Nacionalidad:</td>
+              <td>Dominicana</td>
+            </tr>
+
+            <tr>
+              <td>Estudios:</td>
+              <td>Actual Uni</td>
+            </tr>
+
+            <tr>
+              <td>Tecnologias Manejadas:</td>
+              <td>HTML,CSS,JS...</td>
+            </tr>
+
+            <tr>
+              <td>Hobbies y Skills:</td>
+              <td>...</td>
+            </tr>
+          </table>
+        </tbody>
+        <div class="proyectos">
+          <h2 class="title-proyectos">Proyectos</h2>
+        </div>
+        <div class="trabajos box">
+          <a class="enlace-ahorcado" href="#">Juego Ahorcado</a>
+        </div>
+
+        <div class="encriptador box">
+          <a class="enlace" href="#">Encriptador</a>
+        </div>
+
+        <div class="alura-web box">
+          <a class="enlace" href="#">Alura Web</a>
+        </div>
+      </div>
+    </main>
+
+    <footer class="rodapie">
+      <form class="form">
+        <label>nombre:</label>
+        <input id="nombre" type="text" placeholder="nombre" required />
+
+        <label>Correo:</label>
+        <input
+          id="correo"
+          type="email"
+          placeholder="***@gmail.com"
+           
+        />
+        <p id="alert" class="alert"></p>
+        
+
+        <textarea
+          class="textarea"
+          name="mensaje"
+          id="mensaje"
+          cols="30"
+          rows="5"
+          placeholder="mandeme un mensaje..."
+        ></textarea>
+
+        <input id="input" type="submit" />
+      </form>
+      
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

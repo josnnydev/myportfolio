@@ -1,0 +1,51 @@
+body {
+  background: black;
+}
+
+.box {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.enlace-ahorcado, .enlace {
+  text-decoration: none;
+  color: white;
+  width: 100%;
+  background: rgb(0, 0, 0, 0.5);
+  text-align: center;
+  font-size: 3rem;
+}
+
+.title-proyectos {
+  color: rgb(235, 99, 212);
+  font-size: 3rem;
+  text-align: center;
+}
+
+.rodapie {
+  background: linear-gradient(rgb(7, 6, 6), 70%, rgb(63, 60, 60));
+  width: 100%;
+  padding-top: 2rem;
+  color: rgb(217, 111, 221);
+}
+
+.form {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     align-items: center;
+     justify-content: space-around;
+}
+
+.input {
+  width: 7rem;
+  height: 2rem;
+}
+
+.textarea {
+  position: relative;
+  bottom: 1rem;
+}
+
+ 
